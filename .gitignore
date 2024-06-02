@@ -1,0 +1,75 @@
+# Ignore compiled binaries and executables
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Ignore package files
+*.tar.gz
+*.tgz
+*.zip
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore system-specific files and directories
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore dependency directories
+/node_modules
+/bower_components
+/vendor
+
+# Ignore IDE/Editor-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore generated files and build artifacts
+/build
+/dist
+
+# Ignore configuration files that may contain sensitive information
+config.js
+*.config.js
+
+# Ignore JSON files
+package-lock.json
+embeds_tf.json
+embeds_openai.json
+clusters_tf.json
+clusters_openai.json
+
+# Ignore any file in the root .idea directory, including .idea itself
+.idea/*
+!.idea/.gitignore
+
+# Ignore .DS_Store files everywhere
+**/.DS_Store
+
+# Ignore .env files inside dist directories
+dist/**/*.env
+
+# Ignore any file in a node_modules directory
+**/node_modules/*
+
+# Ignore any file in a bower_components directory
+**/bower_components/*
+
+# Ignore any file in a vendor directory
+**/vendor/*
+
+# Ignore any file in a .git directory
+**/.git/*
