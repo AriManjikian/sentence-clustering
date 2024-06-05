@@ -83,7 +83,7 @@ const calculateElbowPoint = (wcssValues) => {
     }
     embeddingsArr = embeddingsArr.map(item => item.embedding);
 
-    const maxClusters = 10;
+    const maxClusters = Math.min(10, embeddingsArr.length);
     const wcssValues = [];
     for (let k = 1; k <= maxClusters; k++) {
         const wcss = calculateWCSS(embeddingsArr, k);

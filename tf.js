@@ -62,7 +62,7 @@ const calculateElbowPoint = (wcssValues) => {
         console.log('Embeddings have been written to embeds_tf.json');
     }
 
-    const maxClusters = 10; // Maximum number of clusters to evaluate
+    const maxClusters = Math.min(10, embeddingsArr.length); // Maximum number of clusters to evaluate
     const wcssValues = [];
     for (let k = 1; k <= maxClusters; k++) {
         const wcss = calculateWCSS(embeddingsArr, k);
