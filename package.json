@@ -6,8 +6,13 @@
     "@tensorflow/tfjs-backend-webgl": "^3.21.0",
     "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
+    "hdbscanjs": "^1.0.12",
+    "ml-hclust": "^3.1.0",
     "ml-kmeans": "^6.0.0",
+    "natural": "^7.0.7",
+    "node-summarizer": "^1.0.7",
     "openai": "^4.47.2",
+    "stopword": "^3.0.1",
     "tsne-js": "^1.0.3"
   }
 }
